@@ -43,6 +43,7 @@ const { content } = useContent()
             :alt="content.hero.portraitAlt"
             width="800"
             height="1000"
+            fetchpriority="high"
             decoding="async"
           />
         </div>
