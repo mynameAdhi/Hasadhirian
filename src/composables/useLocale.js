@@ -1,13 +1,11 @@
-import { useI18n } from 'vue-i18n'
+import { locale, setLocale as applyLocale } from '@/i18n'
 
 const supported = ['id', 'en']
 
 export function useLocale() {
-  const { locale } = useI18n({ useScope: 'global' })
-
   function setLocale(next) {
     if (!supported.includes(next) || next === locale.value) return
-    locale.value = next
+    applyLocale(next)
     document.documentElement.lang = next
 
     try {

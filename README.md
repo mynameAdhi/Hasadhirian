@@ -7,7 +7,7 @@ Website portofolio bilingual untuk Has Adhi Rian, fullstack developer. Satu hala
 - Vite 8
 - Vue 3, Composition API, JavaScript
 - Tailwind CSS v4
-- vue-i18n
+- Locale lookup internal di `src/i18n.js` dengan `id.json` dan `en.json`
 - Headless UI Vue untuk modal dan menu mobile
 - Font self-hosted: Bricolage Grotesque, Instrument Sans, IBM Plex Mono
 
@@ -25,6 +25,8 @@ npm run build
 npm run preview
 ```
 
+`npm run build` merender HTML awal lewat SSR, menyuntikkannya ke `dist/index.html`, dan menginline CSS. Browser lalu melakukan hidrasi Vue, jadi konten sudah terlihat sebelum JavaScript selesai dimuat. Font memakai fallback dengan metrik yang disesuaikan agar teks tidak bergeser saat font selesai dimuat.
+
 ## Struktur
 
 ```text
@@ -35,8 +37,11 @@ src/
   locales/        id.json dan en.json
   styles/         Token, layout, section, komponen, kontak
   App.vue
+  entry-client.js
+  entry-server.js
   i18n.js
-  main.js
+scripts/
+  prerender.js
 public/
   cv/             File CV
   images/         Foto profil

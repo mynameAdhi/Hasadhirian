@@ -24,7 +24,7 @@ export function useActiveSection(ids) {
   }
 
   onMounted(() => {
-    update()
+    requestUpdate()
     window.addEventListener('scroll', requestUpdate, { passive: true })
     window.addEventListener('resize', requestUpdate, { passive: true })
   })

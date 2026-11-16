@@ -1,5 +1,5 @@
 <script setup>
-import { useI18n } from 'vue-i18n'
+import { useI18n } from '@/i18n'
 import { useContent } from '@/composables/useContent'
 import { profile } from '@/data/content'
 import AppIcon from './AppIcon.vue'
@@ -43,7 +43,6 @@ const { content } = useContent()
             :alt="content.hero.portraitAlt"
             width="800"
             height="1000"
-            fetchpriority="high"
             decoding="async"
           />
         </div>

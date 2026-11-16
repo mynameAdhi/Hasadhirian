@@ -1,6 +1,6 @@
 <script setup>
 import { computed, ref } from 'vue'
-import { useI18n } from 'vue-i18n'
+import { useI18n } from '@/i18n'
 import { useContent } from '@/composables/useContent'
 import { projectMeta, projectOrder } from '@/data/content'
 import SectionHeading from './SectionHeading.vue'

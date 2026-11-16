@@ -7,9 +7,9 @@
 @import "./styles/contact.css";
 
 @theme inline {
-  --font-display: "Bricolage Grotesque Variable", "Arial Black", sans-serif;
-  --font-body: "Instrument Sans Variable", "Helvetica Neue", Arial, sans-serif;
-  --font-mono: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+  --font-display: "Bricolage Grotesque Variable", "Bricolage Grotesque Fallback", Arial, sans-serif;
+  --font-body: "Instrument Sans Variable", "Instrument Sans Fallback", Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", "IBM Plex Mono Fallback", "Courier New", monospace;
   --color-bg: var(--bg);
   --color-surface: var(--surface);
   --color-surface-2: var(--surface-2);

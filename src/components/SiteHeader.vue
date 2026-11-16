@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue'
-import { useI18n } from 'vue-i18n'
+import { useI18n } from '@/i18n'
 import { Dialog, DialogPanel, DialogTitle } from '@headlessui/vue'
 import { useActiveSection } from '@/composables/useActiveSection'
 import { navItems, profile } from '@/data/content'

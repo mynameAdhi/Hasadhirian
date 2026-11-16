@@ -18,7 +18,7 @@ To update antislop later: `npx antislop-ai --update`, or run `npx antislop-ai` a
 
 - `npm install`: install dependencies.
 - `npm run dev`: start the Vite dev server.
-- `npm run build`: production build to `dist/`.
+- `npm run build`: production build to `dist/`, including prerendered HTML and hydration.
 - `npm run preview`: serve the production build locally.
 
 ## Stack
@@ -26,13 +26,16 @@ To update antislop later: `npx antislop-ai --update`, or run `npx antislop-ai` a
 - Vite 8
 - Vue 3 with the Composition API (JavaScript, not TypeScript)
 - Tailwind CSS v4 through `@tailwindcss/vite`
-- vue-i18n for Indonesian and English copy
+- A small locale lookup in `src/i18n.js` for Indonesian and English copy
 - Headless UI Vue for the project modal and mobile menu
 - Self-hosted fonts through `@fontsource`
 
 ## Structure
 
 - `index.html`: document shell, meta tags, and the theme and locale boot script.
+- `src/entry-client.js`: mounts the prerendered HTML with Vue hydration.
+- `src/entry-server.js`: renders the app to HTML during the build.
+- `scripts/prerender.js`: injects the rendered HTML and inlines the CSS into `dist/index.html`.
 - `src/App.vue`: page shell, metadata updates on locale change.
 - `src/components/`: section and control components.
 - `src/composables/`: theme, locale, reveal, active section, and scroll progress logic.

@@ -1,6 +1,6 @@
 <script setup>
 import { watch } from 'vue'
-import { useI18n } from 'vue-i18n'
+import { useI18n } from '@/i18n'
 import { useContent } from '@/composables/useContent'
 import SiteHeader from './components/SiteHeader.vue'
 import SpineRail from './components/SpineRail.vue'
@@ -17,6 +17,8 @@ const { t, locale } = useI18n()
 const { content } = useContent()
 
 function setMeta() {
+  if (typeof document === 'undefined') return
+
   const meta = content.value.meta
 
   document.documentElement.lang = locale.value

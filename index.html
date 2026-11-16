@@ -40,6 +40,7 @@
       rel="preload"
       as="image"
       href="/images/profile.jpg"
+      media="(min-width: 1024px)"
       fetchpriority="high"
     />
 
@@ -62,12 +63,14 @@
     </script>
   </head>
   <body>
-    <div id="app" v-cloak></div>
+    <div id="app"></div>
     <noscript>
       <p style="padding: 24px; font-family: sans-serif">
-        Aktifkan JavaScript untuk melihat portofolio ini. / Enable JavaScript to view this portfolio.
+        Konten tetap terbaca tanpa JavaScript. Aktifkan JavaScript untuk modal proyek,
+        tema, dan pilihan bahasa. / Content stays readable without JavaScript. Enable it
+        for project modals, theme, and language controls.
       </p>
     </noscript>
-    <script type="module" src="/src/main.js"></script>
+    <script type="module" src="/src/entry-client.js"></script>
   </body>
 </html>

@@ -77,10 +77,6 @@ button:disabled,
   cursor: not-allowed;
 }
 
-[v-cloak] {
-  visibility: hidden;
-}
-
 body.is-locked {
   overflow: hidden;
 }

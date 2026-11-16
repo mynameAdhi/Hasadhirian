@@ -1,5 +1,5 @@
 <script setup>
-import { useI18n } from 'vue-i18n'
+import { useI18n } from '@/i18n'
 import { useLocale } from '@/composables/useLocale'
 
 const { t } = useI18n()

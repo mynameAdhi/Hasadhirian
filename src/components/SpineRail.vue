@@ -1,5 +1,5 @@
 <script setup>
-import { useI18n } from 'vue-i18n'
+import { useI18n } from '@/i18n'
 import { navItems } from '@/data/content'
 import { useActiveSection } from '@/composables/useActiveSection'
 import { useScrollProgress } from '@/composables/useScrollProgress'

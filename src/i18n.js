@@ -1,21 +1,36 @@
-import { createI18n } from 'vue-i18n'
+import { computed, ref } from 'vue'
 import id from './locales/id.json'
 import en from './locales/en.json'
 
 const supported = ['id', 'en']
-let stored = null
+const messages = { id, en }
 
-try {
-  stored = localStorage.getItem('locale')
-} catch (error) {
-  // Fall back to Indonesian when storage is unavailable.
+export const locale = ref('id')
+
+export function setLocale(next) {
+  if (supported.includes(next)) locale.value = next
 }
 
-const locale = supported.includes(stored) ? stored : 'id'
+function resolve(source, key) {
+  let current = source
 
-export const i18n = createI18n({
-  legacy: false,
-  locale,
-  fallbackLocale: 'id',
-  messages: { id, en },
-})
+  for (const segment of key.split('.')) {
+    if (current === null || typeof current !== 'object') return undefined
+    current = current[segment]
+  }
+
+  return current
+}
+
+export function useI18n() {
+  function t(key) {
+    const value = resolve(messages[locale.value], key) ?? resolve(messages.id, key)
+    return typeof value === 'string' ? value : key
+  }
+
+  return {
+    t,
+    locale,
+    content: computed(() => messages[locale.value] ?? messages.id),
+  }
+}
