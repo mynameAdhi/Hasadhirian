@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "title": "Has Adhi Rian | Fullstack Developer",
+    "description": "Portofolio Has Adhi Rian, fullstack developer yang menghubungkan analisis proses bisnis dengan eksekusi teknis end-to-end. Laravel, Node.js, Vue.js, MySQL.",
+    "ogLocale": "id_ID"
+  },
+  "a11y": {
+    "skip": "Langsung ke konten",
+    "mainNav": "Navigasi utama",
+    "sectionNav": "Indeks bagian",
+    "language": "Pilih bahasa",
+    "theme": "Pilih tema",
+    "menu": "Menu navigasi",
+    "projectList": "Daftar proyek",
+    "experienceList": "Daftar pengalaman",
+    "skillsList": "Daftar skill",
+    "contactChannels": "Kanal kontak"
+  },
+  "nav": {
+    "about": "Tentang",
+    "skills": "Skill",
+    "projects": "Proyek",
+    "experience": "Pengalaman",
+    "contact": "Kontak"
+  },
+  "actions": {
+    "viewProjects": "Lihat Proyek",
+    "downloadCv": "Unduh CV",
+    "viewDetail": "Lihat detail",
+    "openLive": "Buka situs live",
+    "requestDemo": "Minta demo",
+    "close": "Tutup",
+    "backToTop": "Kembali ke atas",
+    "openMenu": "Buka menu",
+    "closeMenu": "Tutup menu",
+    "toLight": "Aktifkan tema terang",
+    "toDark": "Aktifkan tema gelap",
+    "langId": "Ganti ke Bahasa Indonesia",
+    "langEn": "Ganti ke English",
+    "externalNote": "Membuka tab baru",
+    "emailMe": "Kirim email"
+  },
+  "menu": {
+    "title": "Menu",
+    "controls": "Tampilan"
+  },
+  "hero": {
+    "eyebrow": "Fullstack Developer / Software Engineering",
+    "nameLine1": "Has Adhi",
+    "nameLine2": "Rian",
+    "headline": "Dari alur bisnis ke aplikasi yang berjalan.",
+    "positioning": "Fullstack developer yang menghubungkan analisis proses bisnis dengan eksekusi teknis end-to-end.",
+    "availability": "Terbuka untuk peran full-time dan proyek freelance",
+    "portraitTag": "Foto profil",
+    "portraitCaption": "Placeholder, ganti sebelum deploy",
+    "portraitAlt": "Placeholder foto profil Has Adhi Rian. Ganti file public/images/profile.jpg dengan foto asli.",
+    "scrollHint": "Gulir"
+  },
+  "sections": {
+    "about": {
+      "label": "01 / Tentang",
+      "title": "Saya mulai dari masalah, bukan dari kode."
+    },
+    "skills": {
+      "label": "02 / Skill",
+      "title": "Stack untuk membangun dan merilis.",
+      "note": "Lima kategori yang saya pakai untuk membangun aplikasi web, dari antarmuka sampai environment."
+    },
+    "projects": {
+      "label": "03 / Proyek",
+      "title": "Empat proyek, empat masalah berbeda.",
+      "note": "Klik kartu untuk melihat konteks, peran, dan keputusan teknis. Cover proyek adalah ilustrasi sistem, bukan screenshot."
+    },
+    "experience": {
+      "label": "04 / Pengalaman",
+      "title": "Dua peran, dua sudut pandang.",
+      "note": "Satu sisi membangun produk untuk klien, satu sisi meneliti kebutuhan pengguna."
+    },
+    "contact": {
+      "label": "05 / Kontak",
+      "title": "Punya peran atau proyek yang cocok?",
+      "note": "Terbuka untuk peran full-time, kontrak, dan proyek freelance. Email adalah kanal paling langsung."
+    }
+  },
+  "about": {
+    "body": "Lulusan Sistem Informasi yang berfokus pada pengembangan web fullstack. Saya membedah masalah bisnis menjadi alur sistem yang logis, lalu membangunnya menjadi aplikasi yang stabil dan mudah digunakan. Dari riset pengguna hingga deployment, saya menangani siklus pengembangan secara menyeluruh dengan Laravel, Node.js, Vue.js, dan MySQL.",
+    "highlights": [
+      {
+        "title": "End-to-end",
+        "body": "Antarmuka responsif, arsitektur backend, dan relasi database dikerjakan dalam satu alur."
+      },
+      {
+        "title": "Bisnis + teknis",
+        "body": "Riset pengguna dan analisis proses bisnis diterjemahkan menjadi alur fitur yang bisa dibangun dan diuji."
+      },
+      {
+        "title": "Sampai produksi",
+        "body": "Git, Vercel, VPS, dan integrasi REST API, termasuk gateway WhatsApp berbasis Node.js."
+      }
+    ]
+  },
+  "projects": {
+    "illustrationNote": "Ilustrasi sistem / bukan screenshot",
+    "openLabel": "Buka detail proyek",
+    "privateLabel": "Repositori privat",
+    "labels": {
+      "context": "Konteks",
+      "role": "Peran",
+      "approach": "Pendekatan",
+      "outcome": "Hasil",
+      "stack": "Stack",
+      "note": "Catatan"
+    },
+    "items": {
+      "dawn-six": {
+        "title": "Dawn Six",
+        "subtitle": "WhatsApp Broadcast & Crowdsourcing Platform",
+        "summary": "Platform web komersial untuk siaran WhatsApp massal otomatis dan distribusi tugas berbasis crowdsourcing, dengan pengelolaan sesi perangkat secara real-time.",
+        "cardDescription": "Siaran WhatsApp massal dan distribusi tugas crowdsourcing dalam satu alur.",
+        "role": "Fullstack Developer, tim",
+        "context": "Klien membutuhkan satu platform untuk menjalankan siaran WhatsApp massal secara otomatis dan mendistribusikan tugas berbasis crowdsourcing. Pengelolaan sesi perangkat juga harus bisa dipantau dari aplikasi.",
+        "approach": [
+          "Merancang struktur database relasional bersama tim.",
+          "Membangun logika backend dan alur manajemen pengguna di Laravel 11.",
+          "Mengintegrasikan gateway WhatsApp berbasis Node.js dengan Baileys SDK melalui REST API."
+        ],
+        "outcome": "Siaran dan distribusi tugas berpindah dari proses manual ke satu alur aplikasi yang terhubung ke gateway WhatsApp.",
+        "note": "Repositori bersifat privat. Demo sistem dan penjelasan arsitektur tersedia saat wawancara teknis.",
+        "demoSubject": "Permintaan demo Dawn Six",
+        "demoBody": "Halo Has, saya ingin melihat demo Dawn Six dan membahas arsitekturnya."
+      },
+      "spk": {
+        "title": "SPK Weighted Product",
+        "subtitle": "Sistem Pendukung Keputusan",
+        "summary": "Aplikasi web yang menerapkan metode Weighted Product untuk menghitung bobot multi-kriteria dan menghasilkan peringkat keputusan.",
+        "cardDescription": "Perangkingan multi-kriteria dengan metode Weighted Product.",
+        "role": "System Analyst & Fullstack Developer",
+        "context": "Penilaian dengan banyak kriteria membutuhkan aturan bobot yang konsisten. Sistem ini menyimpan kriteria, bobot, dan nilai alternatif, lalu menghitung peringkat dengan metode Weighted Product.",
+        "approach": [
+          "Menganalisis kebutuhan sistem dan menyusun alur pengolahan kriteria.",
+          "Menerjemahkan rumus Weighted Product ke logika backend PHP.",
+          "Membangun antarmuka pengelolaan kriteria dan laporan hasil dengan JavaScript dan Bootstrap."
+        ],
+        "outcome": "Perangkingan dihitung dari bobot dan nilai yang diinput, sehingga aturan penilaian yang sama bisa dipakai berulang.",
+        "note": "Belum ada tautan demo publik untuk proyek ini."
+      },
+      "coffee-exporter": {
+        "title": "Coffee Exporter Profile",
+        "subtitle": "Company Profile Eksportir Kopi",
+        "summary": "Website profil perusahaan responsif untuk eksportir kopi Indonesia, dibuat untuk memperkuat kredibilitas B2B dan membuka akses katalog bagi calon mitra internasional.",
+        "cardDescription": "Company profile untuk eksportir kopi dengan katalog yang mudah dipindai.",
+        "role": "Frontend Web Developer",
+        "context": "Calon mitra internasional membutuhkan gambaran cepat tentang produk dan identitas perusahaan. Website ini menjadi titik masuk yang ringan, dengan katalog yang bisa dibuka dari mobile maupun desktop.",
+        "approach": [
+          "Merancang tata letak responsif untuk berbagai ukuran layar.",
+          "Mengoptimalkan performa loading aset.",
+          "Mengelola deployment ke Vercel dan Netlify."
+        ],
+        "outcome": "Company profile dan katalog produk dapat diakses dari berbagai ukuran layar, dengan aset yang dioptimalkan untuk loading.",
+        "note": "Belum ada tautan demo publik untuk proyek ini."
+      },
+      "harmasentech": {
+        "title": "HarmasenTech",
+        "subtitle": "Digital Agency Web Profile",
+        "summary": "Website resmi agensi digital yang menampilkan layanan pengembangan aplikasi web kustom, profil perusahaan, dan integrasi API.",
+        "cardDescription": "Website agensi digital dengan alur deploy langsung dari GitHub.",
+        "role": "Web Developer",
+        "context": "Agensi membutuhkan halaman resmi untuk menjelaskan layanan pengembangan aplikasi web kustom, profil perusahaan, dan integrasi API kepada calon klien bisnis.",
+        "approach": [
+          "Membangun struktur halaman antarmuka yang modern dan responsif.",
+          "Mengatur alur continuous deployment dari GitHub ke Vercel."
+        ],
+        "outcome": "Website berjalan di harmasentech.web.id dan diperbarui melalui alur continuous deployment dari repositori GitHub ke Vercel.",
+        "note": ""
+      }
+    }
+  },
+  "experience": {
+    "items": {
+      "harmasentech": {
+        "role": "Freelance Fullstack Web Developer",
+        "period": "Agustus 2026 - Sekarang",
+        "type": "Freelance",
+        "bullets": [
+          "Membangun aplikasi web end-to-end untuk kebutuhan klien bisnis dan proyek kolaborasi tim dengan Laravel, Node.js, JavaScript, dan MySQL.",
+          "Mengembangkan sistem otomatisasi siaran WhatsApp dan distribusi tugas crowdsourcing, terhubung ke REST API dan Baileys SDK.",
+          "Mendeploy company profile responsif untuk klien eksportir kopi menggunakan HTML5, CSS3, JavaScript, dan Vercel atau Netlify.",
+          "Terlibat dalam perancangan database relasional, sistem autentikasi, dan alur kerja kode dengan Git."
+        ]
+      },
+      "elang": {
+        "role": "IT Research Intern",
+        "period": "Oktober 2025 - November 2025",
+        "type": "Magang",
+        "bullets": [
+          "Melakukan riset pengguna dan mengolah data survei untuk mendukung pengembangan platform pencarian kerja.",
+          "Memetakan kebutuhan dan kendala pengguna menjadi rekomendasi perbaikan alur fitur dan antarmuka.",
+          "Menyusun dokumentasi dan laporan analisis data sebagai acuan keputusan tim pengembang."
+        ]
+      }
+    }
+  },
+  "contact": {
+    "lead": "Ceritakan peran atau proyek yang sedang Anda pikirkan. Sertakan konteks singkat agar percakapan langsung masuk ke hal yang penting.",
+    "emailLabel": "Email",
+    "emailNote": "Untuk peran, kontrak, atau proyek.",
+    "status": "Terbuka untuk percakapan",
+    "channels": {
+      "linkedin": {
+        "label": "LinkedIn",
+        "note": "Profil profesional dan riwayat singkat."
+      },
+      "github": {
+        "label": "GitHub",
+        "note": "Tempat saya menyimpan dan membagikan kode."
+      },
+      "cv": {
+        "label": "CV",
+        "note": "Ringkasan pengalaman dalam satu PDF."
+      }
+    },
+    "cvNote": "Placeholder CV. Ganti file public/cv/has-adhi-rian-cv.pdf dengan CV asli sebelum deploy."
+  },
+  "footer": {
+    "built": "Dibangun dengan Vue 3 dan Tailwind CSS.",
+    "credit": "Dirancang dan dibangun oleh Has Adhi Rian."
+  }
+}

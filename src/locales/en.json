@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "title": "Has Adhi Rian | Fullstack Developer",
+    "description": "Portfolio of Has Adhi Rian, a fullstack developer connecting business process analysis with end-to-end technical execution. Laravel, Node.js, Vue.js, MySQL.",
+    "ogLocale": "en_US"
+  },
+  "a11y": {
+    "skip": "Skip to content",
+    "mainNav": "Main navigation",
+    "sectionNav": "Section index",
+    "language": "Choose language",
+    "theme": "Choose theme",
+    "menu": "Navigation menu",
+    "projectList": "Project list",
+    "experienceList": "Experience list",
+    "skillsList": "Skills list",
+    "contactChannels": "Contact channels"
+  },
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "actions": {
+    "viewProjects": "View Projects",
+    "downloadCv": "Download CV",
+    "viewDetail": "View detail",
+    "openLive": "Open live site",
+    "requestDemo": "Request demo",
+    "close": "Close",
+    "backToTop": "Back to top",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "toLight": "Switch to light theme",
+    "toDark": "Switch to dark theme",
+    "langId": "Switch to Indonesian",
+    "langEn": "Switch to English",
+    "externalNote": "Opens in a new tab",
+    "emailMe": "Send email"
+  },
+  "menu": {
+    "title": "Menu",
+    "controls": "Display"
+  },
+  "hero": {
+    "eyebrow": "Fullstack Developer / Software Engineering",
+    "nameLine1": "Has Adhi",
+    "nameLine2": "Rian",
+    "headline": "From business flow to working software.",
+    "positioning": "Fullstack developer connecting business process analysis with end-to-end technical execution.",
+    "availability": "Open to full-time roles and freelance projects",
+    "portraitTag": "Profile photo",
+    "portraitCaption": "Placeholder, replace before deploy",
+    "portraitAlt": "Placeholder profile photo for Has Adhi Rian. Replace public/images/profile.jpg with the real photo.",
+    "scrollHint": "Scroll"
+  },
+  "sections": {
+    "about": {
+      "label": "01 / About",
+      "title": "I start with the problem, not the code."
+    },
+    "skills": {
+      "label": "02 / Skills",
+      "title": "A stack for building and shipping.",
+      "note": "Five categories I use to build web applications, from interface to environment."
+    },
+    "projects": {
+      "label": "03 / Projects",
+      "title": "Four projects, four different problems.",
+      "note": "Open a card for context, role, and technical decisions. Project covers are system illustrations, not screenshots."
+    },
+    "experience": {
+      "label": "04 / Experience",
+      "title": "Two roles, two vantage points.",
+      "note": "One side builds products for clients, the other studies what users need."
+    },
+    "contact": {
+      "label": "05 / Contact",
+      "title": "Have a role or project in mind?",
+      "note": "Open to full-time roles, contracts, and freelance projects. Email is the most direct channel."
+    }
+  },
+  "about": {
+    "body": "An Information Systems graduate focused on fullstack web development. I break business problems into logical system flows, then build them into stable, usable applications. From user research to deployment, I handle the full development cycle with Laravel, Node.js, Vue.js, and MySQL.",
+    "highlights": [
+      {
+        "title": "End-to-end",
+        "body": "Responsive interfaces, backend architecture, and database relations handled in one workflow."
+      },
+      {
+        "title": "Business + tech",
+        "body": "User research and business process analysis turned into feature flows that can be built and tested."
+      },
+      {
+        "title": "Through to production",
+        "body": "Git, Vercel, VPS, and REST API integrations, including a Node.js WhatsApp gateway."
+      }
+    ]
+  },
+  "projects": {
+    "illustrationNote": "System illustration / not a screenshot",
+    "openLabel": "Open project details",
+    "privateLabel": "Private repository",
+    "labels": {
+      "context": "Context",
+      "role": "Role",
+      "approach": "Approach",
+      "outcome": "Outcome",
+      "stack": "Stack",
+      "note": "Note"
+    },
+    "items": {
+      "dawn-six": {
+        "title": "Dawn Six",
+        "subtitle": "WhatsApp Broadcast & Crowdsourcing Platform",
+        "summary": "A commercial web platform for automated WhatsApp broadcasts and crowdsourced task distribution, with real-time device session management.",
+        "cardDescription": "WhatsApp broadcasts and crowdsourced task distribution in one flow.",
+        "role": "Fullstack Developer, team",
+        "context": "The client needed one platform to run automated WhatsApp broadcasts and distribute crowdsourced tasks. Device sessions also had to be monitored from the application.",
+        "approach": [
+          "Designed the relational database structure with the team.",
+          "Built backend logic and user management flows in Laravel 11.",
+          "Integrated a Node.js WhatsApp gateway with the Baileys SDK through REST API."
+        ],
+        "outcome": "Broadcasts and task distribution moved from manual processes into one application flow connected to the WhatsApp gateway.",
+        "note": "The repository is private. A system demo and architecture walkthrough are available during a technical interview.",
+        "demoSubject": "Dawn Six demo request",
+        "demoBody": "Hi Has, I would like to see a Dawn Six demo and talk through the architecture."
+      },
+      "spk": {
+        "title": "SPK Weighted Product",
+        "subtitle": "Decision Support System",
+        "summary": "A web application that applies the Weighted Product method to calculate multi-criteria weights and produce decision rankings.",
+        "cardDescription": "Multi-criteria ranking with the Weighted Product method.",
+        "role": "System Analyst & Fullstack Developer",
+        "context": "Scoring against many criteria needs consistent weight rules. The system stores criteria, weights, and alternative scores, then calculates rankings with the Weighted Product method.",
+        "approach": [
+          "Analyzed system requirements and mapped the criteria processing flow.",
+          "Translated the Weighted Product formula into PHP backend logic.",
+          "Built the criteria management and results interface with JavaScript and Bootstrap."
+        ],
+        "outcome": "Rankings are calculated from the weights and scores entered, so the same scoring rules can be reused.",
+        "note": "No public demo link is available for this project yet."
+      },
+      "coffee-exporter": {
+        "title": "Coffee Exporter Profile",
+        "subtitle": "Coffee Exporter Company Profile",
+        "summary": "A responsive company profile website for an Indonesian coffee exporter, built to strengthen B2B credibility and give prospective international partners access to the product catalog.",
+        "cardDescription": "A coffee exporter company profile with a scannable product catalog.",
+        "role": "Frontend Web Developer",
+        "context": "Prospective international partners need a quick view of the products and the company identity. The site is a lightweight entry point with a catalog that works on mobile and desktop.",
+        "approach": [
+          "Designed a responsive layout for a range of screen sizes.",
+          "Optimized asset loading performance.",
+          "Managed deployment to Vercel and Netlify."
+        ],
+        "outcome": "The company profile and product catalog are accessible across screen sizes, with assets optimized for loading.",
+        "note": "No public demo link is available for this project yet."
+      },
+      "harmasentech": {
+        "title": "HarmasenTech",
+        "subtitle": "Digital Agency Web Profile",
+        "summary": "The official website for a digital agency, covering custom web application development services, company profile, and API integrations.",
+        "cardDescription": "A digital agency website with a deployment flow straight from GitHub.",
+        "role": "Web Developer",
+        "context": "The agency needed an official page to explain custom web application development, its company profile, and API integrations to prospective business clients.",
+        "approach": [
+          "Built a modern, responsive page structure.",
+          "Set up a continuous deployment flow from GitHub to Vercel."
+        ],
+        "outcome": "The site runs at harmasentech.web.id and updates through a continuous deployment flow from the GitHub repository to Vercel.",
+        "note": ""
+      }
+    }
+  },
+  "experience": {
+    "items": {
+      "harmasentech": {
+        "role": "Freelance Fullstack Web Developer",
+        "period": "August 2026 - Present",
+        "type": "Freelance",
+        "bullets": [
+          "Build end-to-end web applications for business clients and team projects with Laravel, Node.js, JavaScript, and MySQL.",
+          "Develop a WhatsApp broadcast automation and crowdsourced task distribution system connected to REST APIs and the Baileys SDK.",
+          "Deploy responsive company profiles for coffee export clients with HTML5, CSS3, JavaScript, and Vercel or Netlify.",
+          "Contribute to relational database design, authentication systems, and code workflows with Git."
+        ]
+      },
+      "elang": {
+        "role": "IT Research Intern",
+        "period": "October 2025 - November 2025",
+        "type": "Internship",
+        "bullets": [
+          "Conducted user research and processed survey data to support the development of a job-seeking platform.",
+          "Mapped user needs and pain points into recommendations for feature flow and interface improvements.",
+          "Prepared structured documentation and analysis reports as decision references for the development team."
+        ]
+      }
+    }
+  },
+  "contact": {
+    "lead": "Tell me about the role or project you have in mind. Include a short context so the conversation gets to the important part quickly.",
+    "emailLabel": "Email",
+    "emailNote": "For roles, contracts, or projects.",
+    "status": "Open to a conversation",
+    "channels": {
+      "linkedin": {
+        "label": "LinkedIn",
+        "note": "Professional profile and a short history."
+      },
+      "github": {
+        "label": "GitHub",
+        "note": "Where I keep and share code."
+      },
+      "cv": {
+        "label": "CV",
+        "note": "Experience summary in one PDF."
+      }
+    },
+    "cvNote": "Placeholder CV. Replace public/cv/has-adhi-rian-cv.pdf with the real CV before deploy."
+  },
+  "footer": {
+    "built": "Built with Vue 3 and Tailwind CSS.",
+    "credit": "Designed and built by Has Adhi Rian."
+  }
+}

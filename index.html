@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="id" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Has Adhi Rian | Fullstack Developer</title>
+    <meta
+      name="description"
+      content="Portofolio Has Adhi Rian, fullstack developer yang menghubungkan analisis proses bisnis dengan eksekusi teknis end-to-end. Laravel, Node.js, Vue.js, MySQL."
+    />
+    <meta name="author" content="Has Adhi Rian" />
+    <meta name="robots" content="index, follow" />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="theme-color" content="#0B0B0C" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Has Adhi Rian" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:title" content="Has Adhi Rian | Fullstack Developer" />
+    <meta
+      property="og:description"
+      content="Portofolio Has Adhi Rian, fullstack developer yang menghubungkan analisis proses bisnis dengan eksekusi teknis end-to-end."
+    />
+    <meta property="og:image" content="/og-image.png" />
+    <meta
+      property="og:image:alt"
+      content="Kartu portofolio Has Adhi Rian dengan tulisan Signal and Structure."
+    />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Has Adhi Rian | Fullstack Developer" />
+    <meta
+      name="twitter:description"
+      content="Portofolio Has Adhi Rian, fullstack developer yang menghubungkan analisis proses bisnis dengan eksekusi teknis end-to-end."
+    />
+    <meta name="twitter:image" content="/og-image.png" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link
+      rel="preload"
+      as="image"
+      href="/images/profile.jpg"
+      fetchpriority="high"
+    />
+
+    <script>
+      ;(() => {
+        try {
+          const savedTheme = localStorage.getItem('theme')
+          const theme = savedTheme === 'light' || savedTheme === 'dark' ? savedTheme : 'dark'
+          document.documentElement.dataset.theme = theme
+
+          const themeColor = theme === 'light' ? '#F4F1EA' : '#0B0B0C'
+          document.querySelector('meta[name="theme-color"]')?.setAttribute('content', themeColor)
+
+          const lang = localStorage.getItem('locale') === 'en' ? 'en' : 'id'
+          document.documentElement.lang = lang
+        } catch (error) {
+          document.documentElement.dataset.theme = 'dark'
+        }
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="app" v-cloak></div>
+    <noscript>
+      <p style="padding: 24px; font-family: sans-serif">
+        Aktifkan JavaScript untuk melihat portofolio ini. / Enable JavaScript to view this portfolio.
+      </p>
+    </noscript>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

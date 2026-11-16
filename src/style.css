@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@import "./styles/fonts.css";
+@import "./styles/base.css";
+@import "./styles/layout.css";
+@import "./styles/sections.css";
+@import "./styles/components.css";
+@import "./styles/contact.css";
+
+@theme inline {
+  --font-display: "Bricolage Grotesque Variable", "Arial Black", sans-serif;
+  --font-body: "Instrument Sans Variable", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-text: var(--text);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+}
