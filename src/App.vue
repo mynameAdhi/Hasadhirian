@@ -1,5 +1,5 @@
 <script setup>
-import { watch } from 'vue'
+import { onMounted, watch } from 'vue'
 import { useI18n } from '@/i18n'
 import { useContent } from '@/composables/useContent'
 import SiteHeader from './components/SiteHeader.vue'
@@ -38,7 +38,13 @@ function setMeta() {
     ?.setAttribute('content', meta.ogLocale)
 }
 
-watch(locale, setMeta, { immediate: true })
+// Jalankan SETELAH mount (hindari hydration mismatch)
+onMounted(() => {
+  setMeta()
+})
+
+// Hanya reactif ke perubahan locale user (toggle manual)
+watch(locale, setMeta)
 </script>
 
 <template>
