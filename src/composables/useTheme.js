@@ -23,13 +23,14 @@ function applyTheme(theme) {
   try {
     localStorage.setItem('theme', theme)
   } catch (error) {
-    // Storage can be unavailable in private mode. The theme still applies.
+    // Storage unavailable
   }
 }
 
 export function useTheme() {
   onMounted(() => {
     if (initialized) return
+    // Baca dari DOM (server-rendered) sebagai initial state
     isDark.value = document.documentElement.dataset.theme !== 'light'
     syncMeta(isDark.value)
     initialized = true

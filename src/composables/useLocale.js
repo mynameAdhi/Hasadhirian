@@ -11,7 +11,7 @@ export function useLocale() {
     try {
       localStorage.setItem('locale', next)
     } catch (error) {
-      // The language still switches when storage is unavailable.
+      // Storage unavailable
     }
   }
 
