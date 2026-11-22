@@ -63,7 +63,7 @@ export const experienceMeta = {
   },
   elang: {
     company: 'PT Elang System Solusi Indonesia',
-    location: 'Bekasi, Indonesia',
+    location: 'Depok, Indonesia',
     current: false,
   },
 }
