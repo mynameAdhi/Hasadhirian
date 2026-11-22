@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from 'vue'
+import { onMounted, ref } from 'vue'
 import { useI18n } from '@/i18n'
 import { Dialog, DialogPanel, DialogTitle } from '@headlessui/vue'
 import { useActiveSection } from '@/composables/useActiveSection'
@@ -11,6 +11,13 @@ import ThemeToggle from './ThemeToggle.vue'
 const { t } = useI18n()
 const { activeSection } = useActiveSection(navItems.map((item) => item.id))
 const menuOpen = ref(false)
+
+// Headless UI Dialog menghasilkan DOM berbeda di SSR vs hydration.
+// Render hanya di client (setelah mount) agar tidak terjadi hydration mismatch.
+const mounted = ref(false)
+onMounted(() => {
+  mounted.value = true
+})
 </script>
 
 <template>
@@ -54,7 +61,7 @@ const menuOpen = ref(false)
     </div>
   </header>
 
-  <Dialog :open="menuOpen" class="mobile-menu-root" @close="menuOpen = false">
+  <Dialog v-if="mounted" :open="menuOpen" class="mobile-menu-root" @close="menuOpen = false">
     <DialogPanel class="mobile-menu">
       <div class="mobile-menu__header">
         <DialogTitle class="mobile-menu__title">{{ t('menu.title') }}</DialogTitle>

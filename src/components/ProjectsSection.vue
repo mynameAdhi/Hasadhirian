@@ -1,5 +1,5 @@
 <script setup>
-import { computed, ref } from 'vue'
+import { computed, onMounted, ref } from 'vue'
 import { useI18n } from '@/i18n'
 import { useContent } from '@/composables/useContent'
 import { projectMeta, projectOrder } from '@/data/content'
@@ -11,6 +11,13 @@ const { t } = useI18n()
 const { content } = useContent()
 
 const activeProject = ref(null)
+
+// Headless UI Dialog & Teleport di ProjectModal tidak SSR-safe (hydrateFragment mismatch).
+// Render hanya setelah mount agar struktur SSR == client saat hydration.
+const mounted = ref(false)
+onMounted(() => {
+  mounted.value = true
+})
 
 const projects = computed(() =>
   projectOrder.map((id) => ({
@@ -81,6 +88,6 @@ function closeProject() {
       </ul>
     </div>
 
-    <ProjectModal :project="activeProject" @close="closeProject" />
+    <ProjectModal v-if="mounted" :project="activeProject" @close="closeProject" />
   </section>
 </template>
