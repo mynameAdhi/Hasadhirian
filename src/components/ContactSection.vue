@@ -1,18 +1,22 @@
 <script setup>
-import { useI18n } from '@/i18n'
-import { useContent } from '@/composables/useContent'
-import { contactChannels, profile } from '@/data/content'
-import SectionHeading from './SectionHeading.vue'
-import AppIcon from './AppIcon.vue'
+import { useI18n } from "@/i18n";
+import { useContent } from "@/composables/useContent";
+import { contactChannels, profile } from "@/data/content";
+import SectionHeading from "./SectionHeading.vue";
+import AppIcon from "./AppIcon.vue";
 
-const { t } = useI18n()
-const { content } = useContent()
+const { t } = useI18n();
+const { content } = useContent();
 
-const mailto = `mailto:${profile.email}`
+const mailto = `mailto:${profile.email}`;
 </script>
 
 <template>
-  <section id="contact" class="section section--contact" aria-labelledby="contact-title">
+  <section
+    id="contact"
+    class="section section--contact"
+    aria-labelledby="contact-title"
+  >
     <div class="container">
       <SectionHeading
         :label="content.sections.contact.label"
@@ -39,9 +43,11 @@ const mailto = `mailto:${profile.email}`
               <a
                 class="contact-channel"
                 :href="channel.href"
-                v-bind="channel.external
-                  ? { target: '_blank', rel: 'noopener noreferrer' }
-                  : {}"
+                v-bind="
+                  channel.external
+                    ? { target: '_blank', rel: 'noopener noreferrer' }
+                    : {}
+                "
                 :download="channel.download ? '' : undefined"
               >
                 <span class="contact-channel__index" aria-hidden="true">
@@ -51,7 +57,7 @@ const mailto = `mailto:${profile.email}`
                   <span class="contact-channel__name">
                     {{ content.contact.channels[channel.id].label }}
                     <span v-if="channel.external" class="sr-only">
-                      ({{ t('actions.externalNote') }})
+                      ({{ t("actions.externalNote") }})
                     </span>
                   </span>
                   <span class="contact-channel__note">
@@ -66,8 +72,6 @@ const mailto = `mailto:${profile.email}`
               </a>
             </li>
           </ul>
-
-          <p class="contact__cv-note">{{ content.contact.cvNote }}</p>
         </div>
       </div>
     </div>

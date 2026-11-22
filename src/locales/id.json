@@ -52,7 +52,7 @@
     "positioning": "Fullstack developer yang menghubungkan analisis proses bisnis dengan eksekusi teknis end-to-end.",
     "availability": "Terbuka untuk peran full-time dan proyek freelance",
     "portraitTag": "Foto profil",
-    "portraitCaption": "Placeholder, ganti sebelum deploy",
+    "portraitCaption": "Placeholder",
     "portraitAlt": "Placeholder foto profil Has Adhi Rian. Ganti file public/images/profile.jpg dengan foto asli.",
     "scrollHint": "Gulir"
   },
@@ -203,8 +203,8 @@
   "contact": {
     "lead": "Ceritakan peran atau proyek yang sedang Anda pikirkan. Sertakan konteks singkat agar percakapan langsung masuk ke hal yang penting.",
     "emailLabel": "Email",
-    "emailNote": "Untuk peran, kontrak, atau proyek.",
-    "status": "Terbuka untuk percakapan",
+    "emailNote": "Mari diskusi soal proyek anda.",
+    "status": "Tersedia untuk peran full-time, kontrak, dan proyek freelance",
     "channels": {
       "linkedin": {
         "label": "LinkedIn",
@@ -219,7 +219,7 @@
         "note": "Ringkasan pengalaman dalam satu PDF."
       }
     },
-    "cvNote": "Placeholder CV. Ganti file public/cv/has-adhi-rian-cv.pdf dengan CV asli sebelum deploy."
+    "cvNote": "Placeholder CV. "
   },
   "footer": {
     "built": "Dibangun dengan Vue 3 dan Tailwind CSS.",

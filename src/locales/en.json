@@ -52,7 +52,7 @@
     "positioning": "Fullstack developer connecting business process analysis with end-to-end technical execution.",
     "availability": "Open to full-time roles and freelance projects",
     "portraitTag": "Profile photo",
-    "portraitCaption": "Placeholder, replace before deploy",
+    "portraitCaption": "Placeholder",
     "portraitAlt": "Placeholder profile photo for Has Adhi Rian. Replace public/images/profile.jpg with the real photo.",
     "scrollHint": "Scroll"
   },
@@ -203,8 +203,8 @@
   "contact": {
     "lead": "Tell me about the role or project you have in mind. Include a short context so the conversation gets to the important part quickly.",
     "emailLabel": "Email",
-    "emailNote": "For roles, contracts, or projects.",
-    "status": "Open to a conversation",
+    "emailNote": "Let's talk about your project.",
+    "status": "Available for full-time roles, contracts, and freelance projects. ",
     "channels": {
       "linkedin": {
         "label": "LinkedIn",
@@ -219,7 +219,7 @@
         "note": "Experience summary in one PDF."
       }
     },
-    "cvNote": "Placeholder CV. Replace public/cv/has-adhi-rian-cv.pdf with the real CV before deploy."
+    "cvNote": "Placeholder CV. "
   },
   "footer": {
     "built": "Built with Vue 3 and Tailwind CSS.",
