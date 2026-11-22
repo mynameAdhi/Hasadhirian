@@ -38,7 +38,9 @@
     "langId": "Switch to Indonesian",
     "langEn": "Switch to English",
     "externalNote": "Opens in a new tab",
-    "emailMe": "Send email"
+    "emailMe": "Send email",
+    "prevImage": "Previous image",
+    "nextImage": "Next image"
   },
   "menu": {
     "title": "Menu",
@@ -109,7 +111,8 @@
       "approach": "Approach",
       "outcome": "Outcome",
       "stack": "Stack",
-      "note": "Note"
+      "note": "Note",
+      "screenshots": "Screenshots"
     },
     "items": {
       "dawn-six": {
@@ -125,9 +128,7 @@
           "Integrated a Node.js WhatsApp gateway with the Baileys SDK through REST API."
         ],
         "outcome": "Broadcasts and task distribution moved from manual processes into one application flow connected to the WhatsApp gateway.",
-        "note": "The repository is private. A system demo and architecture walkthrough are available during a technical interview.",
-        "demoSubject": "Dawn Six demo request",
-        "demoBody": "Hi Has, I would like to see a Dawn Six demo and talk through the architecture."
+        "note": "The repository is private. System screenshots and architecture walkthrough are available during a technical interview."
       },
       "spk": {
         "title": "SPK Weighted Product",

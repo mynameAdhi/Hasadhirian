@@ -38,7 +38,9 @@
     "langId": "Ganti ke Bahasa Indonesia",
     "langEn": "Ganti ke English",
     "externalNote": "Membuka tab baru",
-    "emailMe": "Kirim email"
+    "emailMe": "Kirim email",
+    "prevImage": "Gambar sebelumnya",
+    "nextImage": "Gambar selanjutnya"
   },
   "menu": {
     "title": "Menu",
@@ -109,7 +111,8 @@
       "approach": "Pendekatan",
       "outcome": "Hasil",
       "stack": "Stack",
-      "note": "Catatan"
+      "note": "Catatan",
+      "screenshots": "Tangkapan Layar"
     },
     "items": {
       "dawn-six": {
@@ -125,9 +128,7 @@
           "Mengintegrasikan gateway WhatsApp berbasis Node.js dengan Baileys SDK melalui REST API."
         ],
         "outcome": "Siaran dan distribusi tugas berpindah dari proses manual ke satu alur aplikasi yang terhubung ke gateway WhatsApp.",
-        "note": "Repositori bersifat privat. Demo sistem dan penjelasan arsitektur tersedia saat wawancara teknis.",
-        "demoSubject": "Permintaan demo Dawn Six",
-        "demoBody": "Halo Has, saya ingin melihat demo Dawn Six dan membahas arsitekturnya."
+        "note": "Repositori bersifat privat. Tangkapan layar sistem dan penjelasan arsitektur tersedia saat wawancara teknis."
       },
       "spk": {
         "title": "SPK Weighted Product",
