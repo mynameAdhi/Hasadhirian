@@ -43,24 +43,6 @@
       media="(min-width: 1024px)"
       fetchpriority="high"
     />
-
-    <script>
-      ;(() => {
-        try {
-          const savedTheme = localStorage.getItem('theme')
-          const theme = savedTheme === 'light' || savedTheme === 'dark' ? savedTheme : 'dark'
-          document.documentElement.dataset.theme = theme
-
-          const themeColor = theme === 'light' ? '#F4F1EA' : '#0B0B0C'
-          document.querySelector('meta[name="theme-color"]')?.setAttribute('content', themeColor)
-
-          const lang = localStorage.getItem('locale') === 'en' ? 'en' : 'id'
-          document.documentElement.lang = lang
-        } catch (error) {
-          document.documentElement.dataset.theme = 'dark'
-        }
-      })()
-    </script>
   </head>
   <body>
     <div id="app"></div>
