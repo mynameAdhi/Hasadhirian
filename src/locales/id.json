@@ -54,8 +54,8 @@
     "positioning": "Fullstack developer yang menghubungkan analisis proses bisnis dengan eksekusi teknis end-to-end.",
     "availability": "Terbuka untuk peran full-time dan proyek freelance",
     "portraitTag": "Foto profil",
-    "portraitCaption": "Placeholder",
-    "portraitAlt": "Placeholder foto profil Has Adhi Rian. Ganti file public/images/profile.jpg dengan foto asli.",
+    "portraitCaption": "Has Adhi Rian",
+    "portraitAlt": "Foto profil Has Adhi Rian, Fullstack Developer.",
     "scrollHint": "Gulir"
   },
   "sections": {
@@ -163,16 +163,17 @@
       "harmasentech": {
         "title": "HarmasenTech",
         "subtitle": "Digital Agency Web Profile",
-        "summary": "Website resmi agensi digital yang menampilkan layanan pengembangan aplikasi web kustom, profil perusahaan, dan integrasi API.",
-        "cardDescription": "Website agensi digital dengan alur deploy langsung dari GitHub.",
-        "role": "Web Developer",
-        "context": "Agensi membutuhkan halaman resmi untuk menjelaskan layanan pengembangan aplikasi web kustom, profil perusahaan, dan integrasi API kepada calon klien bisnis.",
+        "summary": "Website pribadi/portofolio agensi digital yang menampilkan layanan pengembangan aplikasi web kustom, profil perusahaan, dan integrasi API. Dibangun dan dikelola sepenuhnya secara independen.",
+        "cardDescription": "Website agensi digital pribadi dengan alur deploy otomatis dari GitHub.",
+        "role": "Fullstack Developer & Founder",
+        "context": "Butuh platform pribadi untuk mempresentasikan layanan pengembangan web kustom, profil, dan integrasi API kepada calon klien, dengan alur deploy modern dan biaya operasional minim.",
         "approach": [
-          "Membangun struktur halaman antarmuka yang modern dan responsif.",
-          "Mengatur alur continuous deployment dari GitHub ke Vercel."
+          "Membangun struktur halaman antarmuka modern, responsif, dan accessible dari nol.",
+          "Mengimplementasikan continuous deployment otomatis dari GitHub ke Vercel.",
+          "Mengoptimalkan performa loading dan SEO teknis untuk pencarian organik."
         ],
-        "outcome": "Website berjalan di harmasentech.web.id dan diperbarui melalui alur continuous deployment dari repositori GitHub ke Vercel.",
-        "note": ""
+        "outcome": "Website live di harmasentech.web.id dengan alur deploy otomatis, performa tinggi, dan biaya hosting nol berkat Vercel.",
+        "note": "Proyek pribadi yang dibangun, di-deploy, dan dikelola independen (seperti Dawn Six dan Coffee Exporter)."
       }
     }
   },
@@ -219,8 +220,7 @@
         "label": "CV",
         "note": "Ringkasan pengalaman dalam satu PDF."
       }
-    },
-    "cvNote": "Placeholder CV. "
+    }
   },
   "footer": {
     "built": "Dibangun dengan Vue 3 dan Tailwind CSS.",

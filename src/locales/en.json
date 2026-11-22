@@ -54,8 +54,8 @@
     "positioning": "Fullstack developer connecting business process analysis with end-to-end technical execution.",
     "availability": "Open to full-time roles and freelance projects",
     "portraitTag": "Profile photo",
-    "portraitCaption": "Placeholder",
-    "portraitAlt": "Placeholder profile photo for Has Adhi Rian. Replace public/images/profile.jpg with the real photo.",
+    "portraitCaption": "Has Adhi Rian",
+    "portraitAlt": "Profile photo of Has Adhi Rian, Fullstack Developer.",
     "scrollHint": "Scroll"
   },
   "sections": {
@@ -163,16 +163,17 @@
       "harmasentech": {
         "title": "HarmasenTech",
         "subtitle": "Digital Agency Web Profile",
-        "summary": "The official website for a digital agency, covering custom web application development services, company profile, and API integrations.",
-        "cardDescription": "A digital agency website with a deployment flow straight from GitHub.",
-        "role": "Web Developer",
-        "context": "The agency needed an official page to explain custom web application development, its company profile, and API integrations to prospective business clients.",
+        "summary": "Personal/portfolio website for a digital agency showcasing custom web application development services, company profile, and API integrations. Built and managed entirely independently.",
+        "cardDescription": "Personal digital agency website with automated GitHub deployment flow.",
+        "role": "Fullstack Developer & Founder",
+        "context": "Needed a personal platform to present custom web development services, profile, and API integrations to prospective clients, with a modern deployment workflow and minimal operational cost.",
         "approach": [
-          "Built a modern, responsive page structure.",
-          "Set up a continuous deployment flow from GitHub to Vercel."
+          "Built a modern, responsive, and accessible page structure from scratch.",
+          "Implemented automated continuous deployment from GitHub to Vercel.",
+          "Optimized loading performance and technical SEO for organic search."
         ],
-        "outcome": "The site runs at harmasentech.web.id and updates through a continuous deployment flow from the GitHub repository to Vercel.",
-        "note": ""
+        "outcome": "Live at harmasentech.web.id with automated deployment, high performance, and zero hosting cost thanks to Vercel.",
+        "note": "Personal project built, deployed, and managed independently (like Dawn Six and Coffee Exporter)."
       }
     }
   },
@@ -219,8 +220,7 @@
         "label": "CV",
         "note": "Experience summary in one PDF."
       }
-    },
-    "cvNote": "Placeholder CV. "
+    }
   },
   "footer": {
     "built": "Built with Vue 3 and Tailwind CSS.",
